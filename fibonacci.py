@@ -13,6 +13,6 @@ n = input()
 
 try:
     liczba = int(n)
-    print('wynik wynosi: ',fibo(int((n))))
+    print('wynik wynosi: ',fibo(int(n)))
 except ValueError:
     print('podano wartosc string')
